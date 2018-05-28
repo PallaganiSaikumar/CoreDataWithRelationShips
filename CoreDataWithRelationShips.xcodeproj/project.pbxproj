@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		E62739C120BBE99600E45706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62739C020BBE99600E45706 /* AppDelegate.swift */; };
 		E62739C320BBE99600E45706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62739C220BBE99600E45706 /* ViewController.swift */; };
-		E62739C620BBE99600E45706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62739C420BBE99600E45706 /* Main.storyboard */; };
 		E62739C920BBE99600E45706 /* CoreDataWithRelationShips.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E62739C720BBE99600E45706 /* CoreDataWithRelationShips.xcdatamodeld */; };
 		E62739CB20BBE99600E45706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62739CA20BBE99600E45706 /* Assets.xcassets */; };
 		E62739CE20BBE99600E45706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62739CC20BBE99600E45706 /* LaunchScreen.storyboard */; };
+		E62739D620BBEC5000E45706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62739D520BBEC5000E45706 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E62739BD20BBE99600E45706 /* CoreDataWithRelationShips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataWithRelationShips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62739C020BBE99600E45706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E62739C220BBE99600E45706 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E62739C520BBE99600E45706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E62739C820BBE99600E45706 /* CoreDataWithRelationShips.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataWithRelationShips.xcdatamodel; sourceTree = "<group>"; };
 		E62739CA20BBE99600E45706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E62739CD20BBE99600E45706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E62739CF20BBE99600E45706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E62739D520BBEC5000E45706 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				E62739C020BBE99600E45706 /* AppDelegate.swift */,
 				E62739C220BBE99600E45706 /* ViewController.swift */,
-				E62739C420BBE99600E45706 /* Main.storyboard */,
 				E62739CA20BBE99600E45706 /* Assets.xcassets */,
+				E62739D520BBEC5000E45706 /* Main.storyboard */,
 				E62739CC20BBE99600E45706 /* LaunchScreen.storyboard */,
 				E62739CF20BBE99600E45706 /* Info.plist */,
 				E62739C720BBE99600E45706 /* CoreDataWithRelationShips.xcdatamodeld */,
@@ -125,9 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62739D620BBEC5000E45706 /* Main.storyboard in Resources */,
 				E62739CE20BBE99600E45706 /* LaunchScreen.storyboard in Resources */,
 				E62739CB20BBE99600E45706 /* Assets.xcassets in Resources */,
-				E62739C620BBE99600E45706 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E62739C420BBE99600E45706 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E62739C520BBE99600E45706 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E62739CC20BBE99600E45706 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
